@@ -1,0 +1,9 @@
+{
+    "name": "design-patterns-lab",
+    "version": "1.0.0",
+    "description": "Practical implementations of design patterns in JavaScript",
+    "type": "module",
+    "scripts": {
+        "run:creational:abstract-factory": "node creational/abstract-factory.js"
+    }
+}
