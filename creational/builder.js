@@ -9,7 +9,11 @@ class Computer {
   }
 
   describe() {
-    console.log(`💻 Computer with: ${this.cpu}, ${this.gpu}, ${this.ram}`);
+    console.log(
+      `💻 Computer with: ${[this.cpu, this.gpu, this.ram]
+        .filter(Boolean)
+        .join(' ')}`
+    );
   }
 }
 
@@ -47,10 +51,7 @@ class ComputerDirector {
   }
 
   buildOfficePC() {
-    return new ComputerBuilder()
-      .setCPU('Intel i5')
-      .setRAM('8GB')
-      .setGPU('integrated graphics');
+    return new ComputerBuilder().setCPU('Intel i5').setRAM('8GB');
   }
 }
 
