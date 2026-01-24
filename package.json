@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "run:creational:abstract-factory": "node creational/abstract-factory.js",
-    "run:creational:builder": "node creational/builder.js"
+    "run:creational:builder": "node creational/builder.js",
+    "run:creational:singleton": "node creational/singleton.js",
+    "run:creational:singleton": "tsc creational/factory-method.ts"
   }
 }
