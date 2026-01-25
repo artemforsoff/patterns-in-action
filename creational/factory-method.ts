@@ -1,3 +1,5 @@
+// Создание объектов через переопределяемый фабричный метод
+
 interface AnalyticsProvider {
   track(event: string, payload: unknown): void;
 }
