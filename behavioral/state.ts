@@ -16,8 +16,6 @@
 // 🎬 ConcreteState
 // Реализация поведения для конкретного состояния
 
-// class RedTrafficLight
-
 interface TrafficLightState {
   next(): void;
 }
