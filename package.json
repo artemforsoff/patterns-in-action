@@ -9,6 +9,7 @@
     "run:creational:singleton": "node creational/singleton.js",
     "run:creational:factory-method": "npx tsx creational/factory-method.ts",
     "run:creational:prototype": "npx tsx creational/prototype.ts",
-    "run:behavioral:iterator": "npx tsx behavioral/iterator"
+    "run:behavioral:iterator": "npx tsx behavioral/iterator",
+    "run:behavioral:observer": "npx tsx behavioral/observer"
   }
 }
